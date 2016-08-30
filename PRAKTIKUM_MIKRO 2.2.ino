@@ -1,9 +1,9 @@
-void setup() {
-  // put your setup code here, to run once:
+void setup() 
+{
   DDRC=0x3F;
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop() 
+{
   PORTC=0x03;
 }
